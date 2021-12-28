@@ -76,7 +76,7 @@ async def home(client, message):
         InlineKeyboardButton('Made By', url='https://t.me/Itz_Harry_xD')
     ],
     [
-        InlineKeyboardButton("Repository", url="https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder")
+        InlineKeyboardButton("Repository", url='https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder')
     ]]
 
   reply_markup = InlineKeyboardMarkup(buttons)
@@ -101,7 +101,7 @@ async def help(client, message):
     ],
     [
         InlineKeyboardButton('Our Channel', url='http://telegram.me/AltronixBots'),
-        InlineKeyboardButton('Repository, url="https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder")
+        InlineKeyboardButton('Repository', url="https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder")
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
