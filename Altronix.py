@@ -72,7 +72,7 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/TheArjvps'),
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/AltronixBots'),
         InlineKeyboardButton('Made By', url='https://t.me/Itz_Harry_xD')
     ],
     [
