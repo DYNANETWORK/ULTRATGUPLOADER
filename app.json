@@ -1,0 +1,40 @@
+{
+    "name": "Altronix-TeleGraph",
+    "description": "A bot that can upload medias to Telegra.ph😎⚡",
+    "logo": "https://telegra.ph/file/d1c5140c6fb90c2665451.jpg",
+    "keywords": [
+        "Telegra.ph",
+        "Uploader",
+        "Telegram Bot",
+        "Benchamxd"
+    ],
+    "website": "",
+    "repository": "https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder",
+    "success_url": "t.me/AltronixSupport",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
