@@ -1,4 +1,4 @@
-# Made by ~ @AltronixBots
+# Made by ~ @MAMBA_NETWORK
 import os
 from telegraph import upload_file
 import pyrogram
@@ -22,7 +22,7 @@ async def uploadphoto(client, message):
   userid = str(message.chat.id)
   img_path = (f"./DOWNLOADS/{userid}.jpg")
   img_path = await client.download_media(message=message, file_name=img_path)
-  await msg.edit_text("`Got That Photo.., Uploading it to you..🤠`\n Made by ~ @AltronixBots")
+  await msg.edit_text("`Got That Photo.., Uploading it to you..🤠`\n Made by ~ @MAMBA_NETWORK")
   try:
     tlink = upload_file(img_path)
     await msg.edit_text(f"https://telegra.ph{tlink[0]}")   
@@ -34,17 +34,17 @@ async def uploadphoto(client, message):
 @Tgraph.on_message(filters.animation)
 async def uploadgif(client, message):
   if(message.animation.file_size < 5242880):
-    msg = await message.reply_text("**Wait a Minute I am Uploding it to you..!** Until you join @AltronixBots")
+    msg = await message.reply_text("**Wait a Minute I am Uploding it to you..!** Until you join @MAMBA_NETWORK")
     userid = str(message.chat.id)
     gif_path = (f"./DOWNLOADS/{userid}.mp4")
     gif_path = await client.download_media(message=message, file_name=gif_path)
-    await msg.edit_text("**Ohk I Gif..** I am Uploding.. Join ~ @AltronixBots")
+    await msg.edit_text("**Ohk I Gif..** I am Uploding.. Join ~ @MAMBA_NETWORK")
     try:
       tlink = upload_file(gif_path)
       await msg.edit_text(f"https://telegra.ph{tlink[0]}")   
       os.remove(gif_path)   
     except:
-      await msg.edit_text("Getting **Error** in my server..! Forward this messageto @AltronixBots") 
+      await msg.edit_text("Getting **Error** in my server..! Forward this messageto @MAMBA_NETWORK") 
   else:
     await message.reply_text("This file is Too Big.. I need a File upto 5mbps only..!")
 
@@ -61,7 +61,7 @@ async def uploadvid(client, message):
       await msg.edit_text(f"https://telegra.ph{tlink[0]}")     
       os.remove(vid_path)   
     except:
-      await msg.edit_text("Please ask @Itz_Harry_xD") 
+      await msg.edit_text("Please ask @BLACKMAMBA_OFFICIAL") 
   else:
     await message.reply_text("Size Should Be Less Than **5 mb**")
 
@@ -72,17 +72,17 @@ async def home(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/AltronixBots'),
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/MAMBA_NETWORK'),
         InlineKeyboardButton('Made By', url='https://t.me/Itz_Harry_xD')
     ],
     [
-        InlineKeyboardButton("Repository", url='https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder')
+        InlineKeyboardButton("Repository", url='https://github.com/SUKHPAL443/ULTRATGUPLOADER')
     ]]
 
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
         chat_id=message.chat.id,
-        text="""<b>Hello, I Am Altronix,
+        text="""<b>Hello, I Am MAMBA PIC UPLOADER,
         
 A telegraph Uploader That Can Upload Photo, Video And Gif
 Simply send me photo, video or gif to upload to Telegraph
@@ -100,8 +100,8 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/AltronixBots'),
-        InlineKeyboardButton('Repository', url="https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder")
+        InlineKeyboardButton('Our Channel', url='http://telegram.me/MAMBA-NETWORK'),
+        InlineKeyboardButton('Repository', url="https://github.com/SUKHPAL443/ULTRATGUPLOADER")
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
@@ -119,11 +119,11 @@ I'll upload it to telegra.ph and give you the direct link""",
 async def button(Tgraph, update):
       cb_data = update.data
       if "help" in cb_data:
-        await update.message.edit_text(text="**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev: @Itz_Harry_xD")
+        await update.message.edit_text(text="**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev: @BLACKMAMBA_OFFICIAL")
       elif "close" in cb_data:
         await update.message.delete() 
       elif "home" in cb_data:
-        await update.message.edit_text(text="**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev: @Itz_Harry_xD")
+        await update.message.edit_text(text="**Send me photo/gif/video to Upload them on telegra.ph**\n\n__My Dev: @BLAKCMAMBA_OFFICIAL")
       
 
 Tgraph.run()
