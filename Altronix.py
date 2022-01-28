@@ -87,7 +87,7 @@ async def home(client, message):
 A telegraph Uploader That Can Upload Photo, Video And Gif
 Simply send me photo, video or gif to upload to Telegraph
         
-Made By ~ @Itz_Harry_xD</b>""",
+Made By ~ @BLACKMAMBA_OFFICIAL</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=message.message_id
