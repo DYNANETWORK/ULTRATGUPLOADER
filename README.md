@@ -1,4 +1,4 @@
-- Hi, I'm  Altronix-TeleGraphUploader
+- Hi, I'm  ULTRA TG UPLOADER
 
 - Telegraph Uploader Bot📌
 - An telegraph uploader bot written on Python.
@@ -13,6 +13,6 @@
 
 I made new bot that will turn photo to telegraph link 😎
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SUKHPAL443/ULTRATGUPLOADER)
 
-# A Bot By [Harry](https://telegram.dog/ITZ_HARRY_xD)
+# A Bot By [MAMBA](https://telegram.dog/BLACKMAMBA_OFFICIAL)
