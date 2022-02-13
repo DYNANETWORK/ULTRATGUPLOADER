@@ -1,7 +1,7 @@
 {
-    "name": "Altronix-TeleGraph",
+    "name": "MAMBA TELEGRAPH UPLOADER",
     "description": "A bot that can upload medias to Telegra.ph😎⚡",
-    "logo": "https://telegra.ph/file/d1c5140c6fb90c2665451.jpg",
+    "logo": "https://telegra.ph/file/d7828fc8b3d17f922b153.jpg",
     "keywords": [
         "Telegra.ph",
         "Uploader",
@@ -9,8 +9,8 @@
         "Benchamxd"
     ],
     "website": "",
-    "repository": "https://github.com/D3stroyer-xD/Altronix-TeleGraphUploder",
-    "success_url": "t.me/AltronixSupport",
+    "repository": "https://github.com/SUKHPAL443/ULTRATGUPLOADER",
+    "success_url": "t.me/MAMBA_X_SUPPORT",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
