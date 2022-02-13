@@ -27,9 +27,11 @@ I made new bot that will turn photo to telegraph link 😎
 <h1>ULTRA TG UPLOADER</h1>
 <b>ULTRA TG UPLOADER is a telegram bot that running in python3 + Telethon Born From Javes.</b>
 <br>
+
 # Support
 <a href="https://t.me/MAMBA_X_SUPPORT"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/MAMBA_NETWORK"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
 # Credit
 BLACK MAMBA.
 
