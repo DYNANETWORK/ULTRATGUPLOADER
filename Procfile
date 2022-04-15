@@ -1,1 +1,1 @@
-worker: python3 Altronix.py
+worker: python3 ULTRATGUPLOADER.py
