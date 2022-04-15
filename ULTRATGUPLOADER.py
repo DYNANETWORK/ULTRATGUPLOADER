@@ -73,7 +73,7 @@ async def home(client, message):
     ],
     [
         InlineKeyboardButton('Our Channel', url='http://telegram.me/MAMBA_NETWORK'),
-        InlineKeyboardButton('Made By', url='https://t.me/BLACKMAMBA_OFFICIAL')
+        InlineKeyboardButton('Made By', url='https://t.me/BLACK_MAMBA_RETURNS_OP')
     ],
     [
         InlineKeyboardButton("Repository", url='https://github.com/SUKHPAL443/ULTRATGUPLOADER')
@@ -100,7 +100,7 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://telegram.me/MAMBA-NETWORK'),
+        InlineKeyboardButton('Our Channel', url='http://t.me/MAMBA_NETWORK'),
         InlineKeyboardButton('Repository', url="https://github.com/SUKHPAL443/ULTRATGUPLOADER")
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
