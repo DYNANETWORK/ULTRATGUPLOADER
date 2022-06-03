@@ -89,8 +89,7 @@ Simply send me photo, video or gif to upload to Telegraph
 Made By ~ @DYNA_OPTIMISE</b>""",
         reply_markup=reply_markup,
         parse_mode="html",
-        reply_to_message_id=message.message_id
-    )
+        reply_to_message_id=message.message_id)
 
 @Tgraph.on_message(filters.command(["help"]))
 async def help(client, message):
