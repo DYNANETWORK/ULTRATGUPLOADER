@@ -1,4 +1,3 @@
-# Made by ~ @MAMBA_NETWORK
 import os
 from telegraph import upload_file
 import pyrogram
@@ -100,8 +99,8 @@ async def help(client, message):
         InlineKeyboardButton('Close', callback_data='close')
     ],
     [
-        InlineKeyboardButton('Our Channel', url='http://t.me/DYNA_NETWORK),
-        InlineKeyboardButton('Repository', url="https://github.com/SUKHPAL443/ULTRATGUPLOADER")
+        InlineKeyboardButton('Our Channel', url='http://t.me/DYNA_NETWORK'),
+        InlineKeyboardButton('Repository', url='https://github.com/SUKHPAL443/ULTRATGUPLOADER')
     ]]
   reply_markup = InlineKeyboardMarkup(buttons)
   await Tgraph.send_message(
